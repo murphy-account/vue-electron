@@ -16,6 +16,11 @@ export default new Router({
       component: require('@/components/default').default
     },
     {
+      path: '/buildNew',
+      name: 'buildNew',
+      component: require('@/components/buildNew').default
+    },
+    {
       path: '*',
       redirect: '/'
     }
