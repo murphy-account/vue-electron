@@ -11,7 +11,7 @@ import "codemirror/theme/dracula.css"// 配置里面也需要theme设置为monok
 import "codemirror/mode/vue/vue.js" // 配置里面也需要mode设置为vue
 import 'codemirror/addon/selection/active-line' //光标行背景高亮，配置里面也需要styleActiveLine设置为true
 
-if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
+if (!process.env.IS_WEB) Vue. use(require('vue-electron'))
 Vue.use(ElementUI);
 Vue.http = Vue.prototype.$http = axios
 Vue.config.productionTip = false

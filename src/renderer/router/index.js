@@ -21,6 +21,11 @@ export default new Router({
       component: require('@/components/buildNew').default
     },
     {
+      path: '/quickClipBoard',
+      name: 'quickClipBoard',
+      component: require('@/components/quickClipBoard').default
+    },
+    {
       path: '*',
       redirect: '/'
     }

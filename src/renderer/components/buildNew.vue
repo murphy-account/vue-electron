@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-button size="mini" icon="el-icon-back" circle @click="aaa"></el-button>
+    <el-button size="mini" icon="el-icon-back" circle @click="$router.push({ path: '/default' })"></el-button>
     <h2>buildNew</h2>
     <div>
         目标路径：
